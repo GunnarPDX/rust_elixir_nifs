@@ -5,7 +5,7 @@ defmodule RustElixirNifs.MixProject do
     [
       app: :rust_elixir_nifs,
       version: "0.1.0",
-      elixir: "~> 1.14",
+      elixir: "~> 1.18",
       start_permanent: Mix.env() == :prod,
       compilers: [:rustler] ++ Mix.compilers(),
       rustler_crates: rustler_crates(),
